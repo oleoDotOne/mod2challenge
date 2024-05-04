@@ -16,6 +16,7 @@ body {
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
   background-color: rgba(0, 0, 0, 0.782);
   color: rgba(0, 0, 0, 0.782);
 }
@@ -25,6 +26,7 @@ header h1 {
   /*margin-left: 0px;*/
   padding: 5px;
   display: inline-block;
+  
   font-size: 48px;
 }
 
@@ -47,4 +49,44 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-left: 25px;
+}
+
+main {
+  position: relative;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner img {
+  width: 100%; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.title h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #87cdb0;
+  color: rgba(0, 0, 0, 0.782);
+  margin-left: 75%;
+  margin-top: 8%;
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+sections {
+  margin-top: 0%; /*banner height*/
+}
+
+section {
+  font-size: 180%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 8% 30px 0;
+  color: rgba(0, 0, 0, 0.782);
 }
